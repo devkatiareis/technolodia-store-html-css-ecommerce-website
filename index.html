@@ -493,6 +493,27 @@
       </div>
     </section>
 
+    <!-- NEWSLETTER -->
+    <section style="background: var(--paper)">
+      <div class="container">
+        <div class="newsletter">
+          <div class="newsletter-grid">
+            <div>
+              <h2>Obtenha <strong>20% de desconto</strong> no seu primeiro pedido — direto para sua caixa de entrega.
+              </h2>
+              <p>Envie seu email e enviaremos um desconto único, além de ofertas de primeira vista sobre o equipamento
+                que acabamos de receber. Você pode cancelar a inscrição a qualquer momento.</p>
+            </div>
+            <form class="newsletter-form"
+              onsubmit="event.preventDefault(); this.querySelector('button').textContent='Sent ✓';">
+              <input type="email" required placeholder="Digite seu email" aria-label="Email address" />
+              <button class="btn" type="submit">Inscrever →</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
 </body>
