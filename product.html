@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Caixa de Som Apple HomePod 2ª Geração — Technolodia</title>
+  <meta name="description"
+    content="Apple HomePod 2ª Geração — áudio espacial, tecnologia de detecção de ambiente e a peça central da sua casa inteligente. Frete grátis, devolução em 30 dias." />
+  <meta name="theme-color" content="#4F46E5" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Outfit:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top utility strip -->
+  <div class="utility">
+    <div class="container">
+      <span class="promo">
+        <span class="tag">PROMO</span>
+        Entrega grátis em compras acima de R$50 · Devolução gratuita em até 30 dias
+      </span>
+      <span class="links">
+        <a href="#">Rastrear pedido</a>
+        <a href="#">Ajuda</a>
+        <a href="#">PT · BRL</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">T</span>
+        Technolodia
+      </a>
+
+      <form class="search" role="search" onsubmit="event.preventDefault();">
+        <input type="text" placeholder="Pesquise por produtos, marcas, categorias…" aria-label="Search the store" />
+        <button type="submit" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round">
+            <circle cx="11" cy="11" r="7" />
+            <path d="M21 21l-4.3-4.3" />
+          </svg>
+        </button>
+      </form>
+
+      <div class="icon-row">
+        <a href="#" class="icon-btn" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 21c0-4 4-7 8-7s8 3 8 7" />
+          </svg>
+        </a>
+        <a href="#" class="icon-btn" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+          <span class="count">3</span>
+        </a>
+        <a href="cart.html" class="icon-btn icon-btn--cart" aria-label="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2l-2 5v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7l-2-5z" />
+            <path d="M4 7h16" />
+            <path d="M16 11a4 4 0 0 1-8 0" />
+          </svg>
+          <span class="count">2</span>
+        </a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">≡</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Category nav -->
+  <nav class="nav-bar" aria-label="Primary">
+    <div class="container">
+      <a href="shop.html" class="all-cats">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+          stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+        Todas as Categorias
+      </a>
+      <div class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Loja ▾</a>
+        <a href="product.html" aria-current="page">Produtos</a>
+        <a href="cart.html">Carrinho</a>
+        <a href="contact.html">Contato</a>
+      </div>
+      <span class="nav-cta">ATÉ <strong>60% DE DESCONTO</strong> EM TODO O SITE</span>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <a href="index.html" class="brand"><span class="brand-mark">T</span> Technolodia</a>
+      <button class="drawer-close" aria-label="Close menu">Fechar ✕</button>
+    </div>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Loja</a>
+    <a href="product.html">Produtos</a>
+    <a href="cart.html">Carrinho</a>
+    <a href="contact.html">Contato</a>
+    <a href="cart.html" class="btn btn--indigo" style="margin-top:var(--s5); justify-content:center">View cart →</a>
+    <div style="border-top: 1px solid var(--rule); margin-top: var(--s4); padding-top: var(--s4); display: flex; flex-direction: column; gap: var(--s2);">
+      <a href="#" style="font-size: var(--text-sm); font-weight: 500; padding: 4px 0; border: 0;">Rastrear pedido</a>
+      <a href="#" style="font-size: var(--text-sm); font-weight: 500; padding: 4px 0; border: 0;">Ajuda</a>
+      <a href="#" style="font-size: var(--text-sm); font-weight: 500; padding: 4px 0; border: 0;">PT · BRL</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <div class="container">
+      <div class="crumbs" style="padding-top: var(--s5)"><a href="index.html">Home</a> <span class="sep">›</span> <a
+          href="shop.html">Loja</a> <span class="sep">›</span> <span>Alto-Falantes</span></div>
+
+      <section class="product-detail">
+
+        <div class="gallery">
+          <div class="gallery-thumbs">
+            <button class="is-active"><img
+                src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=200&q=80&auto=format&fit=crop"
+                alt="HomePod 2nd Gen thumbnail 1" width="200" height="200" loading="eager" decoding="async" /></button>
+            <button><img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?w=200&q=80&auto=format&fit=crop"
+                alt="HomePod 2nd Gen thumbnail 2" width="200" height="200" loading="lazy" decoding="async" /></button>
+            <button><img
+                src="https://images.unsplash.com/photo-1589003077984-894e133dabab?w=200&q=80&auto=format&fit=crop"
+                alt="HomePod 2nd Gen thumbnail 3" width="200" height="200" loading="lazy" decoding="async" /></button>
+            <button><img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&q=80&auto=format&fit=crop"
+                alt="HomePod 2nd Gen thumbnail 4" width="200" height="200" loading="lazy" decoding="async" /></button>
+            <button><img
+                src="https://images.unsplash.com/photo-1574920162043-b872873f19c8?w=200&q=80&auto=format&fit=crop"
+                alt="HomePod 2nd Gen thumbnail 5" width="200" height="200" loading="lazy" decoding="async" /></button>
+          </div>
+          <figure class="gallery-main">
+            <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=900&q=80&auto=format&fit=crop"
+              alt="HomePod 2nd Gen speaker main view" width="900" height="900" loading="eager" decoding="async" />
+          </figure>
+        </div>
+
+        <div class="pdp-info">
+          <span class="pdp-cat">⚡ Áudio · Destaque</span>
+          <h1>Caixa de Som Apple HomePod 2ª Geração</h1>
+          <div class="rating-row">
+            <span style="color: var(--amber); font-size: 16px">★★★★★</span>
+            <span>4.9 / 5 · 312 avaliações</span>
+            <span style="color: var(--rule-strong)">|</span>
+            <span style="color: var(--emerald); display:inline-flex; align-items:center; gap:6px"><span
+                style="width:6px;height:6px;background:var(--emerald);border-radius:999px;display:inline-block"></span>
+              Em Estoque · 22 itens</span>
+          </div>
+          <p class="desc">Áudio espacial, tecnologia de detecção de ambiente e a peça central do seu ecossistema Apple. Chip S7 integrado, áudio computacional dinâmico e transição perfeita com o iPhone. O novo HomePod foi desenhado para se integrar perfeitamente ao seu ambiente e preenchê-lo com som imersivo.</p>
+
+          <div class="price-row">
+            <span class="now">R$280</span>
+            <span class="was">R$320</span>
+            <span class="save">Economize 12%</span>
+          </div>
+
+          <div class="option-block">
+            <div class="label">Cor</div>
+            <div class="color-swatches">
+              <button class="is-active"
+                style="background: #FFFFFF; border-radius: 999px; outline-color: var(--rule-strong)"
+                aria-label="Branco"></button>
+              <button style="background: #0F172A" aria-label="Meia-noite"></button>
+              <button style="background: #F97316" aria-label="Laranja"></button>
+              <button style="background: #4F46E5" aria-label="Índigo"></button>
+            </div>
+          </div>
+
+          <div class="option-block">
+            <div class="label">Configuração</div>
+            <div class="option-pills">
+              <button>Unidade</button>
+              <button class="is-active">Par estéreo · economize R$40</button>
+              <button>Kit com 3 · economize R$120</button>
+            </div>
+          </div>
+
+          <div class="option-block">
+            <div class="label">AppleCare+</div>
+            <div class="option-pills">
+              <button class="is-active">Sem cobertura</button>
+              <button>2 anos · R$39</button>
+              <button>3 anos · R$59</button>
+            </div>
+          </div>
+
+          <div class="pdp-cta">
+            <div class="qty">
+              <button type="button" data-act="-" aria-label="Decrease">−</button>
+              <input type="text" value="1" inputmode="numeric" aria-label="Quantity" />
+              <button type="button" data-act="+" aria-label="Increase">+</button>
+            </div>
+            <a href="cart.html" class="btn btn--indigo" style="flex:1; min-width:160px">Adicionar ao carrinho →</a>
+            <a href="cart.html" class="btn btn--ink">Comprar agora</a>
+            <button class="icon-btn" aria-label="Add to wishlist" style="background: var(--bg)">♡</button>
+          </div>
+
+          <div class="pdp-features">
+            <div class="pf"><span class="ic">⚡</span><span>Frete grátis acima de R$50</span></div>
+            <div class="pf"><span class="ic">↺</span><span>Devolução gratuita em 30 dias</span></div>
+            <div class="pf"><span class="ic">★</span><span>Garantia limitada de 2 anos</span></div>
+            <div class="pf"><span class="ic">✓</span><span>Produto Apple original</span></div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Specs + reviews split -->
+      <section class="section" style="padding-top: 0;">
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: var(--s8)">
+
+          <div>
+            <h2 style="font-size: var(--text-2xl); margin-bottom: var(--s5)">Especificações</h2>
+            <table style="width:100%; border-collapse: collapse; font-size: var(--text-sm)">
+              <tbody>
+                <tr style="border-bottom: 1px solid var(--rule)">
+                  <td
+                    style="padding: var(--s4) 0; color: var(--fg-mute); font-family: var(--ff-mono); font-size: var(--text-xs); letter-spacing: 0.06em; text-transform: uppercase; width: 40%">
+                    Chip</td>
+                  <td style="padding: var(--s4) 0; font-weight: 600">Apple S7 SiP</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--rule)">
+                  <td
+                    style="padding: var(--s4) 0; color: var(--fg-mute); font-family: var(--ff-mono); font-size: var(--text-xs); letter-spacing: 0.06em; text-transform: uppercase">
+                    Transdutores</td>
+                  <td style="padding: var(--s4) 0; font-weight: 600">Woofer de alta excursão de 4 polegadas, 5 tweeters em formação de feixe</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--rule)">
+                  <td
+                    style="padding: var(--s4) 0; color: var(--fg-mute); font-family: var(--ff-mono); font-size: var(--text-xs); letter-spacing: 0.06em; text-transform: uppercase">
+                    Conectividade</td>
+                  <td style="padding: var(--s4) 0; font-weight: 600">Wi-Fi 4, Bluetooth 5.0, Thread, U1</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--rule)">
+                  <td
+                    style="padding: var(--s4) 0; color: var(--fg-mute); font-family: var(--ff-mono); font-size: var(--text-xs); letter-spacing: 0.06em; text-transform: uppercase">
+                    Áudio Espacial</td>
+                  <td style="padding: var(--s4) 0; font-weight: 600">Sim, com rastreamento dinâmico de cabeça</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--rule)">
+                  <td
+                    style="padding: var(--s4) 0; color: var(--fg-mute); font-family: var(--ff-mono); font-size: var(--text-xs); letter-spacing: 0.06em; text-transform: uppercase">
+                    Dimensões</td>
+                  <td style="padding: var(--s4) 0; font-weight: 600">168 × 142 mm · 2,3 kg</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--rule)">
+                  <td
+                    style="padding: var(--s4) 0; color: var(--fg-mute); font-family: var(--ff-mono); font-size: var(--text-xs); letter-spacing: 0.06em; text-transform: uppercase">
+                    Conteúdo da Caixa</td>
+                  <td style="padding: var(--s4) 0; font-weight: 600">HomePod, cabo de alimentação (1,8 m), documentação</td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding: var(--s4) 0; color: var(--fg-mute); font-family: var(--ff-mono); font-size: var(--text-xs); letter-spacing: 0.06em; text-transform: uppercase">
+                    Garantia</td>
+                  <td style="padding: var(--s4) 0; font-weight: 600">Limitada de 2 anos</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div>
+            <h2 style="font-size: var(--text-2xl); margin-bottom: var(--s5)">Avaliações</h2>
+            <div
+              style="display:grid; grid-template-columns: auto 1fr; gap: var(--s5); align-items:center; padding: var(--s5); background: var(--bg); border-radius: var(--r); margin-bottom: var(--s5)">
+              <div style="text-align:center">
+                <div
+                  style="font-family: var(--ff-display); font-size: 48px; font-weight: 800; color: var(--ink); line-height: 1">
+                  4.9</div>
+                <div style="color: var(--amber); font-size: 18px">★★★★★</div>
+                <div style="font-family: var(--ff-mono); font-size: 11px; color: var(--fg-mute); margin-top: 4px">312
+                  avaliações</div>
+              </div>
+              <div
+                style="display:grid; gap:6px; font-family: var(--ff-mono); font-size: var(--text-xs); color: var(--fg-soft)">
+                <div style="display:flex; align-items:center; gap:8px"><span style="width: 16px">5</span><span
+                    style="flex:1; height:6px; background:var(--rule); border-radius:999px; overflow:hidden"><span
+                      style="display:block; width:82%; height:100%; background: var(--amber)"></span></span><span
+                    style="width: 28px; text-align:right">82%</span></div>
+                <div style="display:flex; align-items:center; gap:8px"><span style="width: 16px">4</span><span
+                    style="flex:1; height:6px; background:var(--rule); border-radius:999px; overflow:hidden"><span
+                      style="display:block; width:14%; height:100%; background: var(--amber)"></span></span><span
+                    style="width: 28px; text-align:right">14%</span></div>
+                <div style="display:flex; align-items:center; gap:8px"><span style="width: 16px">3</span><span
+                    style="flex:1; height:6px; background:var(--rule); border-radius:999px; overflow:hidden"><span
+                      style="display:block; width:3%; height:100%; background: var(--amber)"></span></span><span
+                    style="width: 28px; text-align:right">3%</span></div>
+                <div style="display:flex; align-items:center; gap:8px"><span style="width: 16px">2</span><span
+                    style="flex:1; height:6px; background:var(--rule); border-radius:999px; overflow:hidden"><span
+                      style="display:block; width:1%; height:100%; background: var(--amber)"></span></span><span
+                    style="width: 28px; text-align:right">1%</span></div>
+                <div style="display:flex; align-items:center; gap:8px"><span style="width: 16px">1</span><span
+                    style="flex:1; height:6px; background:var(--rule); border-radius:999px; overflow:hidden"><span
+                      style="display:block; width:0%; height:100%; background: var(--amber)"></span></span><span
+                    style="width: 28px; text-align:right">0%</span></div>
+              </div>
+            </div>
+
+            <article style="border-bottom: 1px solid var(--rule); padding-bottom: var(--s5); margin-bottom: var(--s5)">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px">
+                <strong style="font-family: var(--ff-display); font-weight: 700">Mira K.</strong>
+                <span style="font-family: var(--ff-mono); font-size: 11px; color: var(--fg-mute)">Há 2 dias</span>
+              </div>
+              <div style="color: var(--amber); font-size: 14px; margin-bottom: 6px">★★★★★</div>
+              <p style="font-size: var(--text-sm); color: var(--fg-soft); line-height: 1.6">Comprei um par estéreo para a sala de estar. O sensor de ambiente faz uma diferença real — eles se adaptam ao local onde você os posiciona. A configuração levou 90 segundos com a transição do iPhone.</p>
+            </article>
+
+            <article style="border-bottom: 1px solid var(--rule); padding-bottom: var(--s5); margin-bottom: var(--s5)">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px">
+                <strong style="font-family: var(--ff-display); font-weight: 700">Devan R.</strong>
+                <span style="font-family: var(--ff-mono); font-size: 11px; color: var(--fg-mute)">Há 1 semana</span>
+              </div>
+              <div style="color: var(--amber); font-size: 14px; margin-bottom: 6px">★★★★★</div>
+              <p style="font-size: var(--text-sm); color: var(--fg-soft); line-height: 1.6">Substituí meu antigo Sonos por este. O áudio espacial é genuinamente impressionante em faixas Atmos. A qualidade de construção é excelente. Só gostaria que tivesse uma entrada P2 (3,5 mm) para convidados.</p>
+            </article>
+
+            <a href="#" class="btn btn--ghost btn--block">Ler todas as 312 avaliações →</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Related products -->
+      <section class="section">
+        <div class="section-head">
+          <h2>Você também pode gostar</h2>
+          <a href="shop.html" class="view-all">Ver todos →</a>
+        </div>
+        <div class="products">
+          <article class="product-card">
+            <div class="img-wrap"><button class="wishlist" aria-label="Wishlist">♡</button><img
+                src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&q=80&auto=format&fit=crop"
+                alt="Fones de Ouvido" width="500" height="500" loading="lazy" decoding="async" /></div>
+            <div class="stock"><span class="dot"></span>Em Estoque · 67 itens</div>
+            <a href="product.html" class="name">Fones de Ouvido</a>
+            <div class="price"><span class="now">R$280</span></div>
+            <div class="stars">★★★★☆ <span class="count">(312)</span></div>
+            <a href="cart.html" class="btn">Comprar →</a>
+          </article>
+          <article class="product-card">
+            <div class="img-wrap"><span class="badge">Novo</span><button class="wishlist" aria-label="Wishlist">♡</button><img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80&auto=format&fit=crop"
+                alt="Apple Watch Series 9" width="500" height="500" loading="lazy" decoding="async" /></div>
+            <div class="stock"><span class="dot"></span>Em Estoque · 41 itens</div>
+            <a href="product.html" class="name">Apple Watch Series 9</a>
+            <div class="price"><span class="now">R$680</span></div>
+            <div class="stars">★★★★★ <span class="count">(245)</span></div>
+            <a href="cart.html" class="btn">Comprar →</a>
+          </article>
+          <article class="product-card">
+            <div class="img-wrap"><button class="wishlist" aria-label="Wishlist">♡</button><img
+                src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&q=80&auto=format&fit=crop"
+                alt="Apple AirPods V57" width="500" height="500" loading="lazy" decoding="async" /></div>
+            <div class="stock"><span class="dot"></span>Em Estoque · 12 itens</div>
+            <a href="product.html" class="name">Apple AirPods V57</a>
+            <div class="price"><span class="now">R$680</span></div>
+            <div class="stars">★★★★★ <span class="count">(124)</span></div>
+            <a href="cart.html" class="btn">Comprar →</a>
+          </article>
+          <article class="product-card">
+            <div class="img-wrap"><span class="badge badge--sale">PROMO</span><button class="wishlist" aria-label="Wishlist">♡</button><img
+                src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=500&q=80&auto=format&fit=crop"
+                alt="Samsung S21 Ultra" width="500" height="500" loading="lazy" decoding="async" /></div>
+            <div class="stock"><span class="dot"></span>Em Estoque · 24 itens</div>
+            <a href="product.html" class="name">Samsung S21 Ultra</a>
+            <div class="price"><span class="now">R$2,580</span><span class="was">R$2,780</span></div>
+            <div class="stars">★★★★★ <span class="count">(212)</span></div>
+            <a href="cart.html" class="btn">Comprar →</a>
+          </article>
+          <article class="product-card">
+            <div class="img-wrap"><button class="wishlist" aria-label="Wishlist">♡</button><img
+                src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&q=80&auto=format&fit=crop"
+                alt="Canon EOS R7 DSLR" width="500" height="500" loading="lazy" decoding="async" /></div>
+            <div class="stock"><span class="dot"></span>Em Estoque · 24 itens</div>
+            <a href="product.html" class="name">Canon EOS R7 DSLR</a>
+            <div class="price"><span class="now">R$1,920</span></div>
+            <div class="stars">★★★★☆ <span class="count">(67)</span></div>
+            <a href="cart.html" class="btn">Comprar →</a>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="mark"><span class="brand-mark">T</span> Technolodia</div>
+          <p>Eletrônicos &amp; gadgets — diretamente dos fabricantes, enviados rapidamente e com suporte adequado. Desde
+            2018, já enviamos mais de 400.000 pacotes.</p>
+          <div class="socials" style="margin-top:var(--s4)">
+            <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22 5.8a8.5 8.5 0 0 1-2.4.7 4.2 4.2 0 0 0 1.8-2.3 8.4 8.4 0 0 1-2.6 1 4.2 4.2 0 0 0-7.2 3.8A11.9 11.9 0 0 1 3 4.8a4.2 4.2 0 0 0 1.3 5.6 4.2 4.2 0 0 1-1.9-.5v.1a4.2 4.2 0 0 0 3.4 4.1 4.2 4.2 0 0 1-1.9.1 4.2 4.2 0 0 0 3.9 2.9A8.4 8.4 0 0 1 2 18.7 11.9 11.9 0 0 0 8.5 21c7.7 0 11.9-6.4 11.9-11.9v-.5A8.5 8.5 0 0 0 22 5.8z" />
+              </svg></a>
+            <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8 18H5v-7h3v7zM6.5 9.7a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4zM18 18h-3v-4c0-1-.4-1.6-1.4-1.6S12 13 12 14v4H9v-7h3v1c.5-.8 1.4-1.2 2.4-1.2 2 0 3.6 1.4 3.6 4V18z" />
+              </svg></a>
+            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+              </svg></a>
+            <a href="#" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23 7s-.2-1.5-.9-2.2c-.8-.9-1.8-.9-2.2-1C16.6 3.5 12 3.5 12 3.5s-4.6 0-7.9.3c-.4 0-1.4 0-2.2 1C1.2 5.5 1 7 1 7s-.2 1.7-.2 3.5v1.6c0 1.7.2 3.5.2 3.5s.2 1.5.9 2.2c.8.9 1.9.8 2.4.9 1.7.2 7.7.3 7.7.3s4.6 0 7.9-.3c.4 0 1.4 0 2.2-1 .7-.7.9-2.2.9-2.2s.2-1.7.2-3.5V10.5c0-1.7-.2-3.5-.2-3.5zM9.7 14.5V8.4l6 3-6 3.1z" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Categorias Populares</h4>
+          <ul>
+            <li><a href="shop.html">Laptops &amp; Desktops</a></li>
+            <li><a href="shop.html">Smart Home Electronics</a></li>
+            <li><a href="shop.html">Smart Watches</a></li>
+            <li><a href="shop.html">Headphones</a></li>
+            <li><a href="shop.html">Drones</a></li>
+            <li><a href="shop.html">Acessórios</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Assistência</h4>
+          <ul>
+            <li><a href="#">Minha conta</a></li>
+            <li><a href="#">Meu pedido</a></li>
+            <li><a href="#">Política de envio</a></li>
+            <li><a href="#">Centro de ajuda</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Produtos populares</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Centro de ajuda</a></li>
+            <li><a href="#">Suporte</a></li>
+            <li><a href="#">Avaliações</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Fale Conosco</h4>
+          <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="#">Login / Registro</a></li>
+            <li><a href="#">Termos &amp; condições</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Technolodia · All rights reserved</span>
+        <span>DevK Studio Web · Developed by Katia Reis · <a href="https://katiareis.com.br/"
+            target="_blank">www.katiareis.com.br</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
